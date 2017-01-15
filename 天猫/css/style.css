@@ -1,0 +1,1122 @@
+body, div, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Microsoft Yahei";
+    font-size: 12px;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, b, strong {
+    font-weight: normal;
+}
+
+img, input, select {
+    border: none;
+    vertical-align: middle;
+}
+
+input {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+i, em {
+    font-style: normal;
+}
+
+.clear:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.clear {
+    zoom: 1;
+}
+
+.content {
+    top: 0;
+    margin: 0 auto;
+    width: 1230px;
+
+}
+
+.bannerTop {
+    height: 80px;
+    background: #9c00f9;
+    text-align: center;
+}
+
+.headTop {
+    border-bottom: 1px solid #eee;
+    height: 32px;
+    background: #F2F2F2;
+    line-height: 32px;
+    color: #999999;
+}
+
+.headTop a {
+    color: #999;
+}
+
+.headTop a:hover {
+    color: #c40000;
+}
+
+.headTop .left, .headTop .left li {
+    float: left;
+}
+.headTop .left .ab{
+    color: #999;
+}
+.headTop .left li {
+    margin-right: 20px;
+}
+
+.headTop .right {
+    float: right;
+}
+.headTop .right .hidden a{
+    color: #999;
+}
+.headTop .right .hidden a:hover{
+    color: #c40000;
+}
+.headTop .right > li {
+    z-index: 2;
+    position: relative;
+    float: left;
+}
+
+.headTop .right > li > a {
+    display: block;
+    padding: 0 10px;
+}
+
+.headTop .right .btn {
+    display: inline-block;
+    border: 3px solid;
+    border-color: #bbb transparent transparent transparent;
+}
+
+.headTop .right .icon {
+    display: inline-block;
+    margin-right: 4px;
+    width: 12px;
+    height: 14px;
+    vertical-align: middle;
+    background: url("../images/tianmao.png") no-repeat;
+}
+
+.headTop .right .icon1 {
+    background-position: -12px 0;
+}
+
+.headTop .right .icon2 {
+    background-position: -24px 0;
+}
+
+.headTop .right .icon3 {
+    background-position: -36px 0;
+}
+
+.headTop .right .icon4 {
+    background-position: -48px 0;
+}
+
+.headTop .myTb .hidden {
+    display: none;
+    position: absolute;
+    border: 1px solid #eee;
+    top: 31px;
+    padding: 10px;
+    width: 74px;
+    line-height: 18px;
+    background: #fff;
+}
+
+.headTop .myTb .w62 {
+    width: 62px;
+}
+
+.myTb:hover .btn {
+    transition: transform 0.4s ease-in;
+    transform: rotate(180deg);
+    transform-origin: 50% 20%;
+}
+
+.headTop .myTb .myTba {
+    position: relative;
+    z-index: 1;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+
+.headTop .myTb:hover .myTba {
+    border-left-color: #eee;
+    border-right-color: #eee;
+    background: #fff;
+    color: #c40000;
+}
+
+.headTop .myTb a:hover {
+    text-decoration: underline;
+}
+
+.headTop .myTb:hover .hidden {
+    display: block;
+}
+
+.headTop .myTb:hover .btn {
+
+}
+
+.headTop .line {
+    padding: 0 5px;
+}
+
+.headTop .myTb .w142 {
+    padding: 10px 0;
+    width: 142px;
+}
+
+.headTop .myTb .w142 p strong {
+    display: block;
+    padding-left: 10px;
+    font-weight: 900;
+    line-height: 14px;
+    color: #6c6c6c;
+}
+
+.headTop .myTb .w142 p a {
+    padding: 0 10px;
+    line-height: 22px;
+    color: #6c6c6c;
+}
+
+.headTop .myTb .w142 p a:hover {
+    color: #c40000;
+}
+
+.headTop .myTb .w142 .line {
+    display: block;
+    margin: 5px 10px;
+    border-bottom: 1px dotted #827777;
+}
+
+.headTop .myTb .navHidden {
+    left: auto;
+    right: 0;
+    width: 1200px;
+}
+
+.navHidden .over {
+    float: left;
+    border-right: 1px solid #eee;
+    padding-left: 30px;
+    width: 275px;
+}
+
+.navHidden dt {
+    padding-left: 10px;
+    line-height: 25px;
+    font-size: 16px;
+    color: #c40000;
+}
+
+.navHidden dl {
+    margin-left: -10px;
+}
+
+.navHidden dd {
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 85px;
+    line-height: 20px;
+}
+
+.navHidden dd a {
+    color: #666;
+}
+
+.navHidden dd a:hover {
+    text-decoration: underline;
+}
+
+.navHidden dd em {
+    position: absolute;
+    top: -2px;
+    width: 9px;
+    height: 10px;
+    background: url("../images/tianmao_1.png") no-repeat;
+    background-position: -37px 0;
+}
+
+.navHidden dd .new {
+    background-position: -37px -11px;
+}
+.header {
+    height: 130px;
+}
+
+.header .logo {
+    position: relative;
+    left: -45px;
+    float: left;
+    width: 317px;
+}
+
+.header .ser {
+    float: left;
+    margin-top: 38px;
+}
+
+.header input[type=text] {
+    float: left;
+    border: 2px solid #c40000;
+    padding: 0 8px;
+    width: 550px;
+    height: 36px;
+    font-size: 16px;
+}
+
+.header input[type=button] {
+    float: left;
+    width: 130px;
+    height: 40px;
+    background: #c40000;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.header .subList {
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.header .subList a {
+    color: #999;
+}
+
+.header .subList .red {
+    color: #c40000;
+}
+
+.header .subList span {
+    padding: 0 12px;
+    color: #999;
+}
+.nav {
+    height: 36px;
+    background: #dd2727;
+    line-height: 36px;
+}
+
+.navList li {
+    position: relative;
+    float: left;
+    padding: 0 15px;
+    height: 36px;
+    font-size: 16px;
+}
+
+.navList .classify {
+    padding-right: 0;
+    width: 185px;
+    background: #c60a0a;
+    font-weight: 900;
+    color: #fff;
+}
+.navList .classify .btn {
+    display: inline-block;
+    margin-right: 14px;
+    width: 15px;
+    height: 16px;
+    background: url("../images/tianmao.png") no-repeat;
+    background-position: 0 -128px;
+    vertical-align: middle;
+}
+
+.navList li img {
+    width: 90px;
+    height: 36px;
+}
+
+.navList li a {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+
+.navList .bg {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -20px;
+    overflow: hidden;
+    width: 40px;
+    height: 22px;
+
+}
+
+.navList .bg img {
+    margin-top: 0;
+    width: 40px;
+    height: 20px;
+}
+
+.navList li:hover .bg {
+    top: -22px;
+    transition: top 0.5s;
+}
+.banner{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    background: #F2F2F2;
+}
+.banner .bannerInner div{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.banner .bannerInner div img{
+    display: none;
+    width: 100%;
+    height: 100%;
+    border: none;
+    vertical-align: top;
+}
+.focusList{
+    list-style: none;
+    position: absolute;
+    right: 500px;
+    bottom: 20px;
+    z-index: 10;
+}
+
+.focusList li{
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    border: 2px solid #000000;
+    opacity: 0.8;
+    margin-right: 10px;
+    float: left;
+    cursor: pointer;
+}
+.focusList li.selected{
+    background: #ccc;
+}
+
+.banner {
+    position: relative;
+    height: 500px;
+}
+.banner .con {
+    position: relative;
+    z-index: 1;
+    height: 500px;
+
+}
+
+.classifyList {
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 500px;
+    background: #eee;
+    background: rgba(238, 238, 238, .95);
+}
+
+.classifyList > li {
+    height: 31px;
+    line-height: 31px;
+    color: #000;
+    font-size: 14px;
+}
+
+.classifyList .btn {
+    display: inline-block;
+    margin: 0 7px 0 14px;
+    width: 17px;
+    height: 17px;
+    background: url("../images/list_bg.png") no-repeat;
+    vertical-align: middle;
+}
+
+.classifyList .btn2 {
+    background-position: 0 -30px;
+}
+
+.classifyList .btn3 {
+    background-position: 0 -62px;
+}
+
+.classifyList .btn4 {
+    background-position: 0 -92px;
+}
+
+.classifyList .btn5 {
+    background-position: 0 -122px;
+}
+
+.classifyList .btn6 {
+    background-position: 0 -152px;
+}
+
+.classifyList .btn7 {
+    background-position: 0 -182px;
+}
+
+.classifyList .btn8 {
+    background-position: 0 -212px;
+}
+
+.classifyList .btn9 {
+    background-position: left 0 bottom -214px;
+}
+
+.classifyList .btn10 {
+    background-position: left 0 bottom -184px;
+}
+
+.classifyList .btn11 {
+    background-position: left 0 bottom -154px;
+}
+
+.classifyList .btn12 {
+    background-position: left 0 bottom -124px;
+}
+
+.classifyList .btn13 {
+    background-position: left 0 bottom -94px;
+}
+
+.classifyList .btn14 {
+    background-position: left 0 bottom -64px;
+}
+
+.classifyList .btn15 {
+    background-position: left 0 bottom -34px;
+}
+
+.classifyList .btn16 {
+    background-position: left 0 bottom -3px;
+}
+
+.classifyList a {
+    color: #000;
+}
+
+.classifyList li:hover {
+    background: #fff;
+}
+.classifyList li:hover a{
+    color: #c40000;
+}
+
+.classifyList li:hover > a {
+    font-weight: 900;
+}
+
+.classifyList .classify {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 200px;
+    z-index: 100;
+    width: 853px;
+    height: 500px;
+    background: #fafafa;
+}
+
+.classifyList .classify .left {
+    float: left;
+    padding: 20px 30px 0;
+    width: 585px;
+    height: 480px;
+    background: #fff;
+    z-index: 100;
+}
+
+.classifyList .classify .left dl {
+    margin-bottom: 10px;
+    line-height: 22px;
+}
+
+.classifyList .classify .left dt {
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    width: 70px;
+    font-weight: 900;
+}
+
+.classifyList .classify .left .icon {
+    position: absolute;
+    right: 0;
+    top: 7px;
+    border: 5px solid;
+    border-color: transparent transparent transparent #000;
+}
+
+.classifyList .classify .left .iconT {
+    right: 1px;
+    border-left-color: #fff;
+}
+
+.classifyList .classify dd {
+    float: left;
+    border-bottom: 1px dashed #e6e6e6;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    width: 473px;
+}
+
+.classifyList .classify dd a {
+    padding-left: 13px;
+    color: #666;
+}
+
+.classifyList .classify dd a:hover {
+    color: #c40000;
+    font-weight: normal;
+}
+
+.classifyList li:hover .classify {
+    display: block;
+}
+.like {
+    margin: 20px auto;
+    background: #F2F2F2;
+}
+.love{
+    color: #999;
+}
+
+.subNav {
+    margin-top: 30px;
+}
+
+.subNav ul {
+    width: 1240px;
+    margin-left: -10px;
+    color: #999;
+}
+
+.subNav li {
+    float: left;
+    margin-left: 10px;
+    width: 238px;
+    height: 477px;
+    background: #fff;
+}
+
+.subNav h3 {
+    height: 36px;
+    background: #dd2727;
+    text-align: center;
+    line-height: 36px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 900;
+}
+
+.subNav h3 .icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    background: url("../images/tianmao.png") no-repeat;
+}
+
+.subNav h3 .icon1 {
+    background-position: left 0 bottom 0;
+}
+
+.subNav h3 .icon2 {
+    background-position: left -21px bottom 0;
+}
+
+.subNav h3 .icon3 {
+    background-position: left -40px bottom 0;
+}
+
+.subNav h3 .icon4 {
+    background-position: left -61px bottom 0;
+}
+
+.subNav h3 .icon5 {
+    background-position: left -82px bottom 0;
+}
+
+.subNav .list {
+    padding-top: 19px;
+    text-align: center;
+}
+
+.subNav .list h4 {
+    line-height: 27px;
+    font-size: 22px;
+    color: #000;
+}
+
+.subNav .list .text {
+    line-height: 20px;
+    color: #888888;
+}
+
+.subNav .list .img {
+    margin: 5px auto 0;
+    height: 140px;
+    width: 140px;
+    background: #c0c0c0;
+    border-radius: 50%;
+}
+
+.subNav .list .img img {
+    width: 133px;
+    height: 133px;
+}
+
+.subNav .line {
+    margin: 9px auto 0;
+    width: 200px;
+    height: 1px;
+    background: #eee;
+}
+
+.subNav .list:hover img {
+    margin-top: -3px;
+    width: 140px;
+    height: 140px;
+    transition: 0.3s;
+}
+
+
+
+.conList{
+    margin-top: 20px;
+}
+.conList .title{
+    margin-bottom: 8px;
+}
+.conList .title h3{
+    float: left;
+    margin-top: 10px;
+    border-left: 5px solid #f7a945;
+    padding-left: 10px;
+    height: 20px;
+    font-size: 16px;
+    color: #000;
+}
+.conList .title h3 span{
+    font-size: 11px;
+    vertical-align: -2px;
+}
+
+.subNavList{
+    float: right;
+    margin: 18px 10px 0 0;
+}
+.subNavList a{
+    margin-left: 24px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid transparent;
+    font-size: 12px;
+    color: #000;
+}
+.subNavList a:hover{
+    border-bottom: 1px solid #000;
+}
+.conList .con{
+    margin-top: 3px;
+}
+.conList .con .left{
+    float: left;
+    width: 246px;
+}
+.conList .con .pic{
+    position: relative;
+    height: 331px;
+}
+.conList .con .pic img{
+    width: 246px;
+    height: 331px;
+}
+.conList .con .pic p{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #fff;
+    background: rgba(255,255,255,0.6);
+}
+.conList .con .pic span{
+    display: block;
+    color: #000;
+}
+.conList .con .left:hover .pic{
+    transition: opacity 0.5s;
+    opacity: 0.8;
+}
+.conList .con .left:hover .pic span{
+    color: #dd2727;
+}
+.conList .con .left .picTitle{
+    height: 110px;
+    background: url("../images/db_c.png") no-repeat #f7a945 bottom center;
+    text-align: center;
+}
+.conList .con .left .picTitle b{
+    display: block;
+    padding-top: 21px;
+    line-height: 31px;
+    font-size: 22px;
+    font-weight: 900;
+    color: #fff;
+}
+.conList .con .left .picTitle i{
+    line-height: 30px;
+    font-size: 18px;
+    color: #fff;
+}
+.cont{
+    float: left;
+    width: 735px;
+}
+.cont1{
+    width: 249px;
+}
+.cont li{
+    position: relative;
+    float: left;
+    margin: 0 1px 1px 0;
+    padding: 23px 0 0 25px;
+    width: 219px;
+    height: 197px;
+    background: #fff;
+}
+.cont1 li{
+    width: 223px;
+    height: 123px;
+}
+.cont li img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 154px;
+    height: 154px;
+    transition: right 0.3s;
+}
+.cont1 li img{
+    width: 100px;
+    height: 100px;
+}
+.cont li h4{
+    line-height: 29px;
+    font-size: 16px;
+    color: #000;
+}
+.cont li p{
+    line-height: 24px;
+    color: #f7a945;
+}
+.cont li:hover img{
+    right: 5px;
+}
+.list1 .con .left .picTitle{
+    background-color: #19c8a9;
+}
+.list1 .title h3{
+    border-left-color: #19c8a9;
+}
+.list1 .cont li p{
+    color: #19c8a9;
+}
+.list2 .con .left .picTitle{
+    background-color: #64c333;
+}
+.list2 .title h3{
+    border-left-color: #64c333;
+}
+.list2 .cont li p{
+    color: #64c333;
+}
+.flag{
+    margin-top: 20px;
+}
+.flag .list{
+    position: relative;
+    z-index: 0;
+    float: left;
+    margin-left: -1px;
+    margin-top: -1px;
+    border: 1px solid #f5f5f5;
+    width: 614px;
+    height: 346px;
+    background-color: #ffffff;
+}
+.flag .list:hover{
+    border-color:#c40000;
+    z-index: 1;
+}
+.flag .list .title{
+    padding: 20px 10px 0 0;
+}
+.flag .list .title h4{
+    float: left;
+}
+.flag .list .title h4 img{
+    float: left;
+    padding: 0 10px;
+    width: 100px;
+    height: 30px;
+}
+.flag .list .title h4 a{
+    color:#333;
+}
+.flag .list .title h4 span{
+    color: #999;
+}
+
+.flag .list .title .more{
+    float: right;
+    width: 80px;
+    height: 30px;
+    background-color: #eee;
+    line-height: 30px;
+    text-align: center;
+    color: #666;
+}
+.classList{
+    padding: 10px 4px;
+}
+.classList li{
+    float: left;
+    margin: 0 5px;
+    width: 192px;
+}
+.classList li img{
+    width: 192px;
+    height: 192px;
+}
+.classList li p{
+    margin: 10px 0;
+    line-height: 18px;
+    color: #000;
+}
+.classList li span{
+    font-size: 16px;
+    font-weight: 900;
+    color: #dd2727;
+}
+.like{
+    margin-top: 20px;
+}
+.like ul{
+    margin-left: -6px;
+    width: 1235px;
+}
+.like li{
+    float: left;
+    margin-bottom: 12px;
+    margin-left: 6px;
+    border: 1px solid #f5f5f5;
+    width: 239px;
+    height: 319px;
+    background-color: #fff;
+}
+.like li img{
+    padding: 2px;
+    width: 235px;
+    height: 230px;
+}
+.like li p{
+    padding: 12px 14px 10px;
+    line-height: 18px;
+    color: #666;
+}
+.like li span{
+    padding-left: 14px;
+    color: #ff0000;
+}
+.like h2{
+    margin: 0 auto;
+    width: 172px;
+    text-align: center;
+}
+.like .line{
+    display: block;
+    width: 172px;
+    border-bottom: 1px solid #979797;
+}
+.like b{
+    margin:0 auto;
+    display: block;
+    margin-top: -14px;
+    width: 112px;
+    background-color: #f5f5f5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom{
+    border-top: 1px solid #d1d7dc;
+    padding-top: 50px;
+}
+.bottom .list{
+    border-bottom:1px solid #ececec;
+    padding-bottom: 50px;
+}
+.bottom .list li{
+    position: relative;
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.bottom .list li:after{
+    display: block;
+    content: "";
+    position: absolute;
+    top: 6px;
+    right: 0;
+    width: 1px;
+    height: 44px;
+    background-color: #ccc;
+}
+.bottom .list .noLine:after{
+    display: none;
+}
+.bottom .list .icon{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url("../images/bom_bg.jpg") no-repeat;
+    vertical-align: middle;
+}
+.bottom .list p{
+    display: inline-block;
+    vertical-align: middle;
+    color: #828282;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+}
+.bottom .list p b{
+    font-weight: 900;
+    color: #1a1a1a;
+}
+.bottom .pL80{
+    padding-left: 80px;
+}
+.bottom dl{
+    float: left;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 23px;
+    width: 230px;
+}
+.bottom dl dt{
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 900;
+    color: #646464;
+}
+.bottom dl dd a{
+    line-height: 20px;
+    color: #8b8b8b;
+}
+.bottom dl dd img{
+    width: 100px;
+    height: 100px;
+}
+.footer{
+    position: relative;
+    padding-bottom: 25px;
+    border-top: 1px solid #c40000;
+    background-color: #000;
+}
+.footer .maotou{
+    position: absolute;
+    top: -24px;
+    left: 10%;
+    width:69px;
+    height: 23px;
+}
+.footer .maotou img{
+    width: 69px;
+    height: 23px;
+}
+.footer .text{
+    padding: 10px 0 10px 35px;
+    color: #fff;
+}
+.footer .text a{
+    color: #fff;
+}
+.footer .link{
+    padding-left: 35px;
+    line-height: 20px;
+    color: #a4a4a4;
+}
+.footer .link span{
+    margin-right: 66px;
+}
+.footer .link a{
+    color: #a4a4a4;
+}
+.footer .copy{
+    padding-left: 35px;
+    line-height: 20px;
+    color: #686868;
+}
+
+
+
+
+
+
+
